@@ -9,9 +9,12 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
+<<<<<<< HEAD
 import os
 from dotenv import load_dotenv
 load_dotenv()
+=======
+>>>>>>> d9c67697873c184bedcbc86e2ac38a6186ffea1c
 
 from pathlib import Path
 
@@ -23,8 +26,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 
 SECRET_KEY = os.environ['SECRET_KEY']
+=======
+SECRET_KEY = 'django-insecure-_sp-(0*j=6dme)l8fm70jx5f1(q%xbmf*_(uc*4(g#61=g164^'
+
+>>>>>>> d9c67697873c184bedcbc86e2ac38a6186ffea1c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
