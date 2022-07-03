@@ -8,6 +8,6 @@ class Post(models.Model):
     author = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
     created_date = models.DateTimeField(auto_now_add=True)
     published_date = models.DateTimeField()
- 
+
     def __str__(self):
-         return self.title
+        return self.title
